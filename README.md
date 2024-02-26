@@ -11,10 +11,6 @@ The goal is to solve the following projects in ZIG in order to master the basic 
 * ft_print_alphabetz
 * ft_print_numberz
 * ft_is_negativez
-* ~~ft_print_combz
-* ~~ft_print_comb2z
-* ~~ft_putnbrz
-* ~~ft_print_combnz
 
 ## Reflections
 I stopped after the is_negative test. The reason is that the write function in C requires the programmer to convert the output into a string to be able to write it to the file descriptor. ZIG gets rid of this complication by using a print function that is already able to manage different data types. Therefore, conversions do not feel that useful, leadeing me to skip the putnbr. I also skipped the others to focus on pointers in Z01.
